@@ -3,16 +3,16 @@
   block:
     - ufw:
         state: enabled
-    - ufw:
-        rule: allow
-        to_port: 443
+    # - ufw:
+    #     rule: allow
+    #     to_port: 443
     - ufw:
         rule: allow
         to_port: 80
     # Docker - Hub connection
-    - ufw:
-        rule: allow
-        to_port: 8081
+    # - ufw:
+    #     rule: allow
+    #     to_port: 8081
 #   # THREDDS server with ssl, but for internal use only
 #   - ufw:
 #       rule: allow

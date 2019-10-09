@@ -1,4 +1,4 @@
 users:
-  - { user: user_a, group: group1 }
-  - { user: user_b, group: group1 }
-  - { user: user_c, group: group2 }
+  - { user: arnoldk, group: return }
+  - { user: milutinm, group: return }
+  - { user: wandak, group: return }

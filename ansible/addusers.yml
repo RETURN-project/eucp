@@ -15,7 +15,7 @@
   - user:
       name: "{{ item.user }}"
       group: "{{ item.group }}"
-      groups: [jupyterhub, users]
+  #    groups: [return, users]
       password: "{{ cryptopass.stdout }}"
       shell: /bin/bash
       home: "/mnt/users/{{ item.user }}"
